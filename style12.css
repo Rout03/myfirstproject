@@ -1,0 +1,26 @@
+div{
+    height: 400px;
+    width: 400px;
+    background-color: green;
+    transition-duration: 1s;
+    transition-delay: 1s;
+
+}
+div:hover{
+    background-color: black;
+    border-radius: 50%;
+
+}
+#name{
+    height: 200px;
+    width: 200px;
+    margin-top: 10px;
+    margin: 0 auto;
+    transition:margin-top 2s ease-in-out 0.2s ;
+
+}
+#name:hover{
+    margin-top: 100px;
+    background-color: pink;
+
+}

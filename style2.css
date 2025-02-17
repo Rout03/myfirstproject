@@ -1,0 +1,30 @@
+h1{
+    text-align: center;
+    text-decoration: wavy underline;
+    letter-spacing: 10px;
+    font-family: arial;
+}
+h2{
+    text-align: right;
+    text-decoration: overline;
+}
+h3{
+    text-align: left;
+    text-decoration: red line-through;
+    font-family: avant garde,didot,sans-serif;
+    
+}
+h4{
+    text-align: center;
+    font-family: fantasy;
+}
+p{
+    text-align: justify;
+    font-weight: bold;
+    line-height: 2.5;
+    font-size: 30px;
+    
+}
+a{
+    text-decoration: none;
+}

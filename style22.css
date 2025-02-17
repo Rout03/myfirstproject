@@ -1,0 +1,33 @@
+.container{
+    width: 430px;
+    height: 200px;
+    background-color: green;
+    border: 2px solid black;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 10px;
+    column-gap: 10px;
+    justify-items: center;
+    
+}
+.item{
+    /*width: 100px;
+    height: 60px;*/
+    border: 2px solid black;
+    text-align: center;
+    background-color: aqua;
+
+    
+
+}
+.one{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    justify-self: start;
+}
+.three{
+    grid-row-start: 1;
+    grid-row-end: 4;
+    place-self: end;
+}

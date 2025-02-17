@@ -1,0 +1,19 @@
+h1{
+    color: rgb(85, 87, 177);
+    color: #1b74e1;
+}
+button{
+    background-color: aqua;
+}
+#black{
+    background-color: black;
+    color: white;
+}
+*{
+    font-family: "Courier New";
+}
+/*camment karne keliye css pai...*/
+ #myid p{
+    color:green;
+}
+

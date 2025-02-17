@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table & form practise set..</title>
+</head>
+<body>
+    <div>
+        <table border="black">
+            <caption>Student information</caption>
+            <tr>
+                <td rowspan="6">info</td>
+                <td rowspan="2">Name</td>
+                <td colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Address</td>
+            </tr>
+            <tr>
+                <td>city</td>
+                <td>House</td>
+            </tr>
+            <tr>
+                <td>A</td>
+                <td>delhi</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>B</td>
+                <td>mumbai</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>c</td>
+                <td>kolkata</td>
+                <td>pune</td>
+            </tr>
+            <tr>
+                <td>d</td>
+                <td>pune</td>
+                <td>4</td>
+            </tr>
+
+        </table>
+    </div>
+    <hr>
+    <form action="/server">
+        Name:<input type="text"><br>
+        <label for="sex">sex :</label>
+        <input type="radio"id="sex"name="sex">
+        <label for="sex">male</label>
+        <input type="radio"id="sex"name="sex">
+        <label for="sex">female</label><br>
+        <label for="country">country:</label>
+        <select name="country" id="country">
+            <option value="select an option">select an option</option>
+            <option value="ind">ind</option>
+            <option value="usa">usa</option>
+        </select><br>
+        <label for="message">message:</label><br>
+        <textarea name="message" id="message"></textarea><br>
+        <input type="checkbox">
+        <label for="subscribe">subscribe?</label><br>
+        <button>submit</button>
+        
+
+    </form>
+    <hr>
+    <form action="/server">
+        Name:<input type="text"><br>
+        <label for="sex">sex:</label>
+        <input type="radio"name="sex"id="sex">
+        <label for="male">male</label>
+        <input type="radio"name="sex">
+        <label for="female">female</label><br>
+        <label for="country">Give options:</label>
+        <select name="country" id="country">
+            <option value="india">india</option>
+            <option value="nepal">nepal</option>
+            <option value="usa">usa</option>
+            <option value="canada">canada for country</option>
+        </select><br>
+        <label for="message">message</label><br>
+        <textarea name="message" id="message" rows="7"cols="9"></textarea><br>
+        <input type="checkbox">
+        <label for="subscribe">subscribe ?</label><br>
+        <button>submit</button>
+
+    </form>
+    <hr>
+    <form action="/server">
+        Name:<input type="text"placeholder="write ur name"><br>
+        Email:<input type="text"placeholder="write ur Email"><br>
+        <label for="message">message:</label><br>
+        <textarea name="message" id="message"></textarea><br>
+        <label for="rate">rate us our of 5:</label><br>
+        <input type="radio"id="rate"name="rate">
+        <label for="rate">1</label><br>
+        <input type="radio"id="rate"name="rate">
+        <label for="rate">2</label><br>
+        <input type="radio"id="rate"name="rate">
+        <label for="rate">3</label><br>
+        <input type="radio"id="rate"name="rate">
+        <label for="rate">4</label><br>
+        <input type="radio"id="rate"name="rate">
+        <label for="rate">5</label><br>
+        <button>send ur message!</button>
+        
+        
+        
+
+
+    </form>
+</body>
+</html>
